@@ -61,7 +61,7 @@
                 <!-- Buscador -->
                 <div class="Buscador">
                     <h2>Softmusic</h2>
-                    <img src="/ASSETS/icn (1).svg" alt="Imagen de un disco de música">
+                    <img src="/ASSETS/icn (1).svg" alt="Imagen de cancion" id="current-song-img">
 
                     <div class="group">
                         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
@@ -76,6 +76,8 @@
 
                 </div>
 
+                <audio autoplay controls id="current-song-audio" src=""></audio>
+
                 <!-- nombre de la banda buscada y lista -->
                 <div>
 
@@ -84,52 +86,9 @@
                     </div>
 
                     <!-- reproductor o lista -->
-                    <div>
-                        <!--cancion 1 -->
-                        <div id="identify">
-                            <img src="/ASSETS/Group 4.jpg" alt="imagen de una cabeza de robot">
-                            <div>
-                                <h3> Daft Punk - Get Lucky, feat. Pharrell Williams and Nile Rodgers </h3>
-                                <img src="/ASSETS/Group 7.svg" alt="tiempo de la canción">
-                                <p>1:20/4:08</p>
-                            </div>
-                        </div>
-                        <!--cancion 2  -->
-                        <div>
-                            <img src="/ASSETS/Group 3.jpg" alt="imagen de una cabeza de robot">
-                            <div>
-                                <h3>Daft Punk - One More Time</h3>
-                                <img src="/ASSETS/Group 5.svg" alt="tiempo de la canción">
-                                <p>0:00/5:22</p>
-                            </div>
-                        </div>
-                        <!--cancion 3 -->
-                        <div>
-                            <img src="/ASSETS/Group 3.jpg" alt="imagen de una cabeza de robot">
-                            <div>
-                                <h3>Daft Punk - Lose Yourself To Dance</h3>
-                                <img src="/ASSETS/Group 5.svg" alt="tiempo de la canción">
-                                <p>0:00/4:11</p>
-                            </div>
-                        </div>
-                        <!--cancion 4 -->
-                        <div>
-                            <img src="/ASSETS/Group 3.jpg" alt="imagen de una cabeza de robot">
-                            <div>
-                                <h3>Daft Punk - Around The World</h3>
-                                <img src="/ASSETS/Group 5.svg" alt="tiempo de la canción">
-                                <p>0:00/4:01</p>
-                            </div>
-                        </div>
-                        <!--reproductor cancion 1 -->
-                        <div>
-                            <img src="/ASSETS/Frame (4).svg" alt="icono de pausa">
-                            <div>
-                                <h3>Daft Punk - Get Lucky, feat. Pharrell Williams and Nile Rodgers</h3>
-                                <img src="/ASSETS/Group 7.svg" alt="tiempo de la canción">
-                                <p>1:20/4:08</p>
-                            </div>
-                        </div>
+                    <div id="track-list">
+                        
+                        
 
                     </div>
 
