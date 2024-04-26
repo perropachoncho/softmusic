@@ -54,6 +54,24 @@ else {
     console.log("no se cumple")
 }
 
+axios.get("https//leonardoapi.onrender.com/songs")
+
+.then(
+    //datos que viene del servidor
+    (res) => {
+        console.log(res.data.songs)
+
+        //recorrer las canciones
+
+        res.data.songs.map(
+            (song) => {
+                //esto se repite por cada cancion
+          console.log(song)
+            }
+        )
+    }
+)
+
 //Operadores logicos 
 //&&        AND o tambien 'y'
 // //       OR o tambien 'o'
