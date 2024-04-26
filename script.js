@@ -20,9 +20,8 @@ axios.get("https://leonardoapi.onrender.com/songs")
                 <img src="${song.path.front}" alt="icono de pausa">
                 <div>
                     <h3>${song.title}</h3>
-                    
-                    <img src="/ASSETS/Group 7.svg" alt="tiempo de la canción">
-                    <p>1:20/4:08</p>
+                
+                    <p>${song.duration}</p>
                 </div>
                 `
                 songhtml.addEventListener('click', () =>{

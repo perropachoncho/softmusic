@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="/style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
+
 </head>
 
 <body>
@@ -56,12 +56,13 @@
 
         <section class="reproductor">
 
-            
+            <img src="/ASSETS/icn (1).svg" alt="Imagen de cancion" id="current-song-img">
+            <h2>Softmusic</h2>
 
-                <!-- Buscador -->
-                <div class="Buscador">
-                    <h2>Softmusic</h2>
-                    <img src="/ASSETS/icn (1).svg" alt="Imagen de cancion" id="current-song-img">
+            <audio autoplay controls id="current-song-audio" src=""></audio>
+
+            <!-- Buscador -->
+            <!-- <div class="Buscador">
 
                     <div class="group">
                         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
@@ -74,30 +75,17 @@
                         <input placeholder="Search" type="search" class="input">
                     </div>
 
-                </div>
+                </div> -->
 
-                <audio autoplay controls id="current-song-audio" src=""></audio>
 
-                <!-- nombre de la banda buscada y lista -->
-                <div>
+            <!-- nombre de la banda buscada y lista -->
 
-                    <div class="resultado">
-                        <p>Daft Punck</p>
-                    </div>
-
-                    <!-- reproductor o lista -->
-                    <div id="track-list">
-                        
-                        
-
-                    </div>
-
-                </div>
-            
 
         </section>
+        <div id="track-list"></div>
+
     </main>
-<script src="/script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
